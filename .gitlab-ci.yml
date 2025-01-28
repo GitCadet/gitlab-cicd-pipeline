@@ -1,0 +1,25 @@
+stages:
+  - build_stage
+  - deploy_stage
+
+# Build Stage
+build:
+  stage: build_stage
+  image: node:14 # Use an official Node.js Docker image for the build stage
+  script:
+    - npm install
+  artifacts:
+    paths:
+      - node_modules
+      - package-lock.json
+  cache:
+    paths:
+      - node_modules
+
+# Deploy Stage
+deploy:
+  stage: deploy_stage
+  image: node:14 # Use the same Node.js image in the deploy stage
+  script:
+    - npm install # Install dependencies
+    - npm start 
