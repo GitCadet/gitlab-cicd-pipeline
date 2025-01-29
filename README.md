@@ -15,5 +15,5 @@ Some issues I came across include:
 
 ![image_alt](https://github.com/GitCadet/my-gitlab-cicd-pipeline/blob/main/gitlab%20cicd.png?raw=true)
 
-This project highlights my experience in working with GitLab CI/CD pipelines and showcases how I used GitLab to automate stages of the development process.
+**This project highlights my experience in working with GitLab CI/CD pipelines and showcases how I used GitLab to automate stages of the development process.**
 
