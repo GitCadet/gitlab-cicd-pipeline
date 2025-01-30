@@ -1,4 +1,4 @@
-# Simple GitLab CICD Pipeline
+# GitLab CICD Pipeline
 This repository showcases a basic CI/CD pipeline I built using GitLab. 
 I practiced configuring and automating workflows with GitLab CI/CD through the creation and management of a .gitlab-ci.yml file. The pipeline automates two main stages: building and deploying the application.
 
